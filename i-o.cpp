@@ -3,21 +3,15 @@ using namespace std;
 
 int main ()
 {
-    int a ;
-    cout<<"Enter your number:";
-    cin>>a; 
+    int num1, num2;
+    cout<<" Enter the  value of num1: \n" ;
+    cin>>num1;
 
-    cout<<"\n"<<a*1;
-    cout<<"\n"<<a*2;
-    cout<<"\n"<<a*3;
-    cout<<"\n"<<a*4;
-    cout<<"\n"<<a*5;
-    cout<<"\n"<<a*6;
-    cout<<"\n"<<a*7;
-    cout<<"\n"<<a*8;
-    cout<<"\n"<<a*9;
-    cout<<"\n"<<a*10;
+    cout<<" Enter the  value of num2: \n" ;
+    cin>>num2;
 
+    cout<<"The sum is: "<< num1+num2;
 
     return 0 ;
+
 }
