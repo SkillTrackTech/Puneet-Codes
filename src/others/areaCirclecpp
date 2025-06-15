@@ -1,0 +1,14 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    float r;
+    cout<<"Enter the value of r:";
+    cin>>r;
+
+    float Area = 3.14*r*r;  //Function for pii find it.
+    cout<<"Area = " <<Area;
+    return 0;
+
+}
