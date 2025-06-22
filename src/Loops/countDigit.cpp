@@ -7,7 +7,7 @@ int  n;
     cout<< "Enter a positive number :";
     cin>>n;
 
-    int count = 0;
+    int count = 0; 
 
     while( n > 0 )
     {
